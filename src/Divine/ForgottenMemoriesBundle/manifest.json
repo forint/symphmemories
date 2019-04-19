@@ -1,0 +1,10 @@
+{
+    "bundles": {
+      "App\\Divine\\ForgottenMemoriesBundle\\DivineForgottenMemoriesBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        "bin/": "%BIN_DIR%/",
+        "config/": "%CONFIG_DIR%/"
+    },
+    "aliases": ["divine", "memories"]
+}

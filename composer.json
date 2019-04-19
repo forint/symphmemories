@@ -24,7 +24,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "App\\Tests\\": "tests/"
+            "App\\Divine\\ForgottenMemoriesBundle\\": "src/Divine/ForgottenMemoriesBundle"
         }
     },
     "replace": {
@@ -57,6 +57,7 @@
         }
     },
     "require-dev": {
+        "doctrine/doctrine-fixtures-bundle": "^3.1",
         "symfony/web-server-bundle": "4.2.*"
     }
 }
